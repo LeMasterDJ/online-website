@@ -1,2 +1,2 @@
-# onlineSite
+# GitHub Pages
 URL lemaster.dev
