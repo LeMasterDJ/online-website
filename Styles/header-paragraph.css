@@ -5,6 +5,7 @@ body {
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
+    margin: 0;
   }
 
   .rotate {
@@ -20,22 +21,30 @@ body {
     }
   }
 
-  p {
-    color: #FFFFFF;
+  .intro {
+    background-color: #88005f;
+    padding: 100px;
+    color: #ffffff;
     font-size: 19px;
     line-height: 25px;
   }
 
-  .stroke {
-    font-size: 80px;
-    stroke-linejoin: round;
-    fill: #FFFFFF;
-    stroke: #000010;
-    stroke-width: 20px;
-    paint-order: stroke;
+  .footer {
+    background-color: #000000;
+    padding: 25px 100px 25px 100px;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .site_header {
+    color: #FFFFFF;
+    font-size: 38px;
+    
   }
 
   img {
-    width: 512px;
+    width: 100vh;
     filter: drop-shadow(0px 0px 20px #0000FF);
   }
