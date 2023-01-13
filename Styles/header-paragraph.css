@@ -1,0 +1,31 @@
+body {
+  background-image: url(../Images/apoptosome_bg.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000020;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 128px;
+    text-align: right;
+  }
+
+  p {
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    <!--width: 400pt;-->
+  }
+
+  img {
+    width: 512px;
+  }
