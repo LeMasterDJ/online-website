@@ -27,7 +27,7 @@ body {
   }
 
   .stroke {
-    font-size: 85px;
+    font-size: 80px;
     stroke-linejoin: round;
     fill: #FFFFFF;
     stroke: #000010;
