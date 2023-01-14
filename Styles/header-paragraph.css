@@ -16,6 +16,7 @@ body {
     animation:            gradient 300s ease-in-out infinite;
     animation-delay:      -150s;
     height:               100vh;
+    overflow: hidden;
   }
   
   @keyframes gradient {
@@ -34,7 +35,6 @@ body {
     width:     210px;
     margin: 20px;
     animation:  rotation 60s infinite linear;
-    transform: rotateY(180deg) 30s infinite linear;
   }
 
   @keyframes rotation {
@@ -158,4 +158,9 @@ body {
   .warning {
     display: none;
   }
+}
+
+.mega {
+  font-size: 512px;
+  color: #ffffff30;
 }
