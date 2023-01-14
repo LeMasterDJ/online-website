@@ -32,12 +32,9 @@ body {
 
   .profile {
     width:     210px;
-    margin-top: 20px;
-  }
-
-  .rotate {
-    animation:  rotation 30s infinite linear;
-    height:     128px;
+    margin: 20px;
+    animation:  rotation 60s infinite linear;
+    transform: rotateY(180deg) 30s infinite linear;
   }
 
   @keyframes rotation {
@@ -53,7 +50,7 @@ body {
     background-color:#00000080;
     backdrop-filter:  blur(13px); 
     display:          flexbox;
-    padding:          0rem 10rem;
+    padding-left:     150px;
     inline-size:      100%;
     overflow-wrap:    normal;
     color:          #ffffff;
@@ -135,7 +132,7 @@ body {
 }
 
 .bigger {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -148,9 +145,15 @@ body {
   .bottom {
     background-color: #00000080;
     border-radius:  0px 0px 15px 15px;
-    padding:        25px 40px 40px 40px;
-    margin-top:     30px;
+    padding:        5px;
   }
+
+  .top {
+    background-color: #00000040;
+    border-radius:  15px;
+    padding:        15px;
+  }
+
 
   .warning {
     display: none;
