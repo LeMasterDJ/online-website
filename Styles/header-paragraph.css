@@ -1,10 +1,10 @@
 body {
-    font-family:          'Atkinson Hyperlegible', sans-serif;
-    background-color:   #000010;
+    font-family:          'Noto Sans', sans-serif;
+    /*background-color:   #000010;
     background-image:     url(../Images/apoptosome_bg.png);
     background-repeat:    no-repeat;
     background-position:  center center;
-    margin:               0;
+    margin:               0;*/
     background:           linear-gradient(120deg,
                                         #ffff57,
                                         #57ff57,
@@ -13,7 +13,7 @@ body {
                                         #ff57ff,
                                         #ff5757);
     background-size:      500% 500%;
-    animation:            gradient 300s ease-in-out infinite;
+    animation:            gradient 60s ease-in-out infinite;
     animation-delay:      -150s;
     height:               100vh;
     overflow: hidden;
@@ -32,9 +32,12 @@ body {
   }
 
   .profile {
-    width:     210px;
-    margin: 20px;
-    animation:  rotation 60s infinite linear;
+    width: 210px;
+    animation: rotation 60s infinite linear;
+    display: block;
+    margin: auto;
+    padding: 20px;
+
   }
 
   @keyframes rotation {
@@ -123,11 +126,10 @@ body {
   filter: drop-shadow(0px 0px 300px #000000);
   filter: drop-shadow(50px 75px 20px #00000040);
   background-color: #00000080;
-  border-radius:  20px;
+  border-radius:  10px;
   color:        #FFFFFF;
   line-height:    0;
-  padding:        5px;
-  text-align:     center;
+  padding:        0px;
   font-size:      16px;
 }
 
@@ -137,21 +139,24 @@ body {
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .modal {
-    -webkit-backdrop-filter:  blur(10px);
-    backdrop-filter:          blur(10px);
+    -webkit-backdrop-filter:  blur(5px);
+    backdrop-filter:          blur(5px);
     background-color:       #00000080;
   }
 
   .bottom {
-    background-color: #00000080;
-    border-radius:  0px 0px 15px 15px;
-    padding:        5px;
+    background-color: #00000040;
+    border-radius:  0px 0px 10px 10px;
+    padding:        30px;
+    text-align:     center;
   }
 
   .top {
-    background-color: #00000040;
-    border-radius:  15px;
+    background-color: #00000080;
+    border-radius:  5px;
     padding:        15px;
+    margin:         7px 7px 0px 7px;
+    text-align:     right;
   }
 
 
@@ -161,7 +166,7 @@ body {
 }
 
 .mega {
-  font-size: 110vh;
+  font-size: 80vh;
   color: #ffffff00;
   -webkit-text-stroke: 3px #00000020;
 
@@ -170,5 +175,4 @@ body {
   left:             50%;
   transform:        translate(-50%, -50%);
   font-style: italic;
-  word-spacing: -50px;
 }
